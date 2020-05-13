@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My first three.js app</title>
+        <!--CSS-->
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	<body>
+        
+        <!-- Initialize the button to start the audio -->
+        <button id="AudioButton">Play Audio</button>
+
+        <!-- Three Js Library -->
+        <script src="library/three.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js"></script>-->
+
+        <!-- Import Gltf Loader -->
+        <script src="library/GLTFLoader.js"></script>
+
+        <!-- Loadash Library and Underscore JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+        <h1 class="title">Lip Synchronisation App</h1>
+
+        <div id="scene-container">
+            <!-- This div will hold our scene-->
+        </div>
+
+        <!-- Script for Three.js scene -->
+        <script src="scripts/lipanimation.js"></script>
+        <!-- Script for Audio analysis -->
+        <script src="scripts/audioanalyser.js"></script>
+
+	</body>
+</html>
